@@ -1,0 +1,6 @@
+#siteContent {
+    background: linear-gradient(90.04deg, #A47A1E -11.24%, #C09539 -1.33%, #D3A84C 6.1%, #E8C96F 13.54%, #F9E38A 20.97%, #FFEC94 25.93%, #FCE68E 28.41%, #E6BE69 49.47%, #EFC870 56.9%, #FFD87C 73.01%, #C19B48 92.83%, #BF9946 102.75%, #BA933F 106.46%, #B08934 107.7%, #A27B23 110.18%, #956D13 111.42%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    font-size: 10px;
+}

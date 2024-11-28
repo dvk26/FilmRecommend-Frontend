@@ -1,20 +1,19 @@
+.Navbar {
+    background-color: transparent;
+    border: 0.1px solid;
+    border-image: linear-gradient(270.64deg, rgba(255, 255, 255, 0.5) 8.27%, rgba(60, 60, 60, 0.5) 108.41%) 1;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
-}
-
-li {
-    float: left;
 }
 
 li a {
- 
-    color: white;
-    text-align: center;
     padding: 10px 1px;   
+    margin: 10px;
     text-decoration: none;
 }
 
@@ -23,5 +22,8 @@ li a:hover:not(.active) {
 }
 
 .active {
-    background-color:#fff;
+    font-weight: bold;
+    background: linear-gradient(90deg, #F5D982 0%, #EBD07D 9.8%, #C5AF6B 20.8%, #CAB36D 24.8%, #D3BB70 33.3%, #E7C96D 38.3%, #C4AE68 47.8%, #CFB86E 66.8%, #B79B45 79.3%, #B89D48 87.8%, #8F7F4C 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
 }
